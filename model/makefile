@@ -35,7 +35,7 @@
 # TORQUE2 (implies TORQUE): torque parameters change half-way through the data (at mid-point in time). Adds 4 more parameters (theta_K2, phi_K2, phi_F2, K2)
 # TREND : detrending the time evolution of the brightness, via the scaling parameter a (proxy for G-parameter from HG reflectivity law) - adds one free parameter A
 
-ARCH=sm_60
+ARCH=sm_70
 
 OPT=--ptxas-options=-v -arch=$(ARCH) -DP_PSI -DTORQUE
 #OPT=--ptxas-options=-v -arch=$(ARCH) -DP_PSI -DTORQUE -DINTERP -DANIMATE

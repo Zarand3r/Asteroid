@@ -1,0 +1,76 @@
+*******************************************************************************
+Ephemeris / WWW_USER Thu Dec 21 08:49:37 2017 Pasadena, USA      / Horizons    
+*******************************************************************************
+Target body name: 1I/'Oumuamua (A/2017 U1)        {source: JPL#15}
+Center body name: Solar System Barycenter (0)     {source: DE431}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2017-Oct-25 00:00:00.0000 TDB
+Stop  time      : A.D. 2017-Oct-30 09:36:00.0000 TDB
+Step-size       : 3840 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)                                                  
+Small perturbers: Yes                             {source: SB431-N16}
+Output units    : AU-D                                                         
+Output type     : GEOMETRIC cartesian states
+Output format   : 1 (position only)
+Reference frame : ICRF/J2000.0                                                 
+Coordinate systm: Ecliptic and Mean Equinox of Reference Epoch                 
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2458059.5 ! 2017-Nov-02.00 (TDB)         Residual RMS= .20459        
+   EC= 1.199512420116502   QR= .2553431944164106   TP= 2458005.9905186971      
+   OM= 24.59921097817111   W=  241.7029828623324   IN= 122.6872051262465       
+  Equivalent ICRF heliocentric equatorial cartesian coordinates (au, au/d):
+   X= 1.428748384326649E+00  Y= 5.096167287703153E-01  Z= 3.153303553198394E-01
+  VX= 2.287160397469122E-02 VY= 9.406435480192356E-04 VZ= 9.444575520960856E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= n.a.                RAD= n.a.               ROTPER= n.a.                
+   H= 22.08                G= .150                 B-V= n.a.                   
+                           ALBEDO= n.a.            STYP= n.a.                  
+*******************************************************************************
+JDTDB
+   X     Y     Z
+*******************************************************************************
+$$SOE
+2458051.500000000 = A.D. 2017-Oct-25 00:00:00.0000 TDB 
+   1.244007764883376E+00  5.601308758639013E-01  1.995571152232917E-02
+2458054.166666667 = A.D. 2017-Oct-27 16:00:00.0000 TDB 
+   1.307228022673935E+00  5.734251349446119E-01  4.216043501351268E-02
+2458056.833333333 = A.D. 2017-Oct-30 08:00:00.0000 TDB 
+   1.369495836628468E+00  5.863048966535882E-01  6.433462377129461E-02
+$$EOE
+*******************************************************************************
+Coordinate system description:
+
+  Ecliptic and Mean Equinox of Reference Epoch
+
+    Reference epoch: J2000.0
+    XY-plane: plane of the Earth's orbit at the reference epoch
+              Note: obliquity of 84381.448 arcseconds wrt ICRF equator (IAU76)
+    X-axis  : out along ascending node of instantaneous plane of the Earth's
+              orbit and the Earth's mean equator at the reference epoch
+    Z-axis  : perpendicular to the xy-plane in the directional (+ or -) sense
+              of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (au)                               
+      Y      Y-component of position vector (au)                               
+      Z      Z-component of position vector (au)                               
+
+Geometric states/elements have no aberrations applied.
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information: http://ssd.jpl.nasa.gov/
+     Connect    : telnet://ssd.jpl.nasa.gov:6775  (via browser)
+                  http://ssd.jpl.nasa.gov/?horizons
+                  telnet ssd.jpl.nasa.gov 6775    (via command-line)
+     Author     : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
