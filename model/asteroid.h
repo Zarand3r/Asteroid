@@ -188,7 +188,7 @@ const int MAX_DATA = 772; // 497, 662, 772, 993, 1914
 const int MAX_DATA = 390;
 #endif
 // Maximum number of filters:
-const int N_FILTERS = 8;
+const int N_FILTERS = 10;
 
 // GPU optimization parameters:
 const int BSIZE = 256;   // Threads in a block (64 ... 1024, step of 64); 256
