@@ -37,7 +37,7 @@
 
 ARCH=sm_70
 
-OPT=--ptxas-options=-v -arch=$(ARCH) -DP_PSI -DTORQUE
+OPT=--ptxas-options=-v -arch=$(ARCH) -DP_PSI -DTORQUE -DBC
 #OPT=--ptxas-options=-v -arch=$(ARCH) -DP_PSI -DTORQUE -DINTERP -DANIMATE
 INC=-I/usr/include/cuda -I.
 LIB=-lpng
